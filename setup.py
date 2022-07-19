@@ -17,8 +17,8 @@ resource_files += find_resource_files('tethysapp/' + app_package + '/workspaces'
 setup(
     name=release_package,
     version='0.0.1',
-    description='',
-    long_description='',
+    description='Sistema de Monitoreo de Movimientos en Masa Potenciales generados por Lluvias Intensas (SILVIA)',
+    long_description='Sistema de Monitoreo de Movimientos en Masa Potenciales generados por Lluvias Intensas (SILVIA)',
     keywords='',
     author='Giovanni Romero',
     author_email='gromero@aquaveo.com',

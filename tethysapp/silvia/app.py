@@ -9,11 +9,11 @@ class Silvia(TethysAppBase):
 
     name = 'Silvia'
     index = 'silvia:home'
-    icon = 'silvia/images/icon.gif'
+    icon = 'silvia/images/silvia.png'
     package = 'silvia'
     root_url = 'silvia'
     color = '#2980b9'
-    description = ''
+    description = 'Sistema de Monitoreo de Movimientos en Masa Potenciales generados por Lluvias Intensas (SILVIA)'
     tags = ''
     enable_feedback = False
     feedback_emails = []
