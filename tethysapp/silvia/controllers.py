@@ -38,7 +38,7 @@ def floodAtributes(request):
         # flood_extents = session.query(FloodExtent.geom.ST_AsGeoJSON(), FloodExtent.comid).all()
 
         # print(flood_extents)
-        print("here",date_to_ask)
+        # print("here",date_to_ask)
         csv_file = app.get_custom_setting('flood_info')
         df = pd.read_csv(csv_file)
         sum_df = pd.DataFrame()
